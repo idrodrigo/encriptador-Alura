@@ -3,7 +3,7 @@ import "./style.scss";
 document.querySelector("#app").innerHTML = `
 <main class="main">
 <section class="main__logo">
-    <h1 class="main__h1"><img class="main__img" src="img/logo.svg" alt="Alura Logo"></h1>
+    <h1 class="main__h1"><img class="main__img" src="/img/logo.svg" alt="Alura Logo"></h1>
 </section>
 <section class="main__form">
     <textarea class="main__textarea" name="mensaje" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
@@ -20,7 +20,7 @@ document.querySelector("#app").innerHTML = `
 <aside class="aside">
     <section class="aside__content" id="ningunMensaje">
         <div class="aside__img">
-            <img src="img/muneco.svg" alt="Ningun mensaje encontrado - imagen">
+            <img src="/img/muneco.svg" alt="Ningun mensaje encontrado - imagen">
         </div>
         <div class="aside__text aside__none">
             <h2 class="aside__h2">Ningún mensaje fue encontrado</h2>
